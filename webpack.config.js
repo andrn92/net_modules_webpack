@@ -4,10 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   module: {
-    rules: [{
-        test: /\.txt$/,
-        use: 'raw-loader'
-      },
+    rules: [      
       {
         test: /\.css$/,
         use: [
