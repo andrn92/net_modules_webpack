@@ -30,11 +30,11 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: path.join(__dirname, './dist'),
+      directory: path.join(__dirname, './src'),
     },
     historyApiFallback: {
       rewrites: [
-        { from: /^\/$/, to: 'main.html' },
+        { from: /^\/$/, to: 'index.html' },
       ],
     },
   }
